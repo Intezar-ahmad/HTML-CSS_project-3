@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Popping", sans-serif;
+    font-style: normal;
+
+}
+body{    
+    color: #fff;
+}
+img{
+    width: 92px ;
+    height: 32px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 31px 83px;
+    height: 94px;
+    background-color: #000;
+}
+.line{
+    width: 1px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+.list-grow{
+    flex-grow: 1;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 63px;    
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 64px;
+    cursor: pointer;
+}
+.small-btn{
+    padding: 7px 25px;
+    border-radius: 4px;
+    background-color: #ba0cc5;
+    border: none;
+    cursor: pointer;
+}
+.small-btn:hover{
+    color: #ba0cc5;
+    background-color: #fff;
+    border: 2px solid #ba0cc5;
+}
+.hero{
+    background-image: url(bg.png);
+    height: 91.5vh;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.hero-heading{
+    font-size: 846px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    text-align: center;
+    padding-top: 172px;
+}
+.hero-description{
+    font-family: "Poppins",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.large-btn{
+    background-color: #ba0cc5;
+    border-radius: 11.2308px;
+    font-family: "Poppins",Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29.94px;
+    line-height: 45px;
+    padding: 14px 22px;
+    margin-top: 64px;
+    cursor: pointer;
+    border: none;
+}
